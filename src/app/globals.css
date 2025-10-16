@@ -120,3 +120,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .bg-home-img {
+    background-image: url('/images/home-img.jpg');
+  }
+
+  @keyframes appear {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slide {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0%); }
+  }
+
+  .animate-appear {
+    animation: appear 1s ease-in-out;
+  }
+
+  .animate-slide {
+    animation: slide 750ms ease-in-out;
+  }
+}
+
