@@ -9,3 +9,4 @@
 - Shadcn UI
 - Git
 - Sentry - Capture errors and performance issues
+- Kinde - Passwordless user authentication
