@@ -1,14 +1,23 @@
-# Repair Shop Ticketing System
+# 🛠️ Repair Shop Ticketing System
 
-## Technologies used:
+A fullstack, passwordless ticketing platform designed for modern computer repair shops. Built with scalability, performance, and expressive UI in mind, this system streamlines customer intake, issue tracking, and resolution workflows—while maintaining a clean, modular architecture and bold visual storytelling.
 
-- React JS
-- Next.js
-- Typescript
-- Tailwind CSS
-- Shadcn UI
-- Git
-- Sentry - Capture errors and performance issues
-- Kinde - Passwordless user authentication
-- Neon Database
-- Drizzle ORM
+---
+
+## ⚙️ Tech Stack Highlights
+
+| Frontend                                 | Backend                                  | DevOps & Auth                               | Database & ORM                  |
+| ---------------------------------------- | ---------------------------------------- | ------------------------------------------- | ------------------------------- |
+| **React JS** – Component-driven UI       | **Next.js** – Fullstack framework        | **Kinde** – Passwordless auth               | **Neon** – Serverless Postgres  |
+| **Typescript** – Type-safe logic         | **Shadcn UI** – Accessible design system | **Sentry** – Error & performance monitoring | **Drizzle ORM** – Type-safe SQL |
+| **Tailwind CSS** – Utility-first styling | —                                        | **Git** – Version control                   | —                               |
+
+---
+
+## ✨ Key Features
+
+- 🔐 **Passwordless Authentication** via Kinde for frictionless user onboarding
+- 🧾 **Ticket Lifecycle Management** with real-time updates and status tracking
+- 🎨 **Expressive UI** using Shadcn UI and Tailwind for clarity and emotional impact
+- 🚨 **Error Monitoring** powered by Sentry for proactive debugging
+- 🧠 **Type-Safe Backend** with Drizzle ORM and Neon for scalable data handling
