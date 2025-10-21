@@ -11,6 +11,8 @@ A fullstack, passwordless ticketing platform designed for modern computer repair
 | **React JS** – Component-driven UI       | **Next.js** – Fullstack framework        | **Kinde** – Passwordless auth               | **Neon** – Serverless Postgres  |
 | **Typescript** – Type-safe logic         | **Shadcn UI** – Accessible design system | **Sentry** – Error & performance monitoring | **Drizzle ORM** – Type-safe SQL |
 | **Tailwind CSS** – Utility-first styling | —                                        | **Git** – Version control                   | —                               |
+| **React Hook Form** – Lightweight forms  |                                          |                                             |                                 |
+| **Zod** – Schema validation              |                                          |                                             |                                 |
 
 ---
 
@@ -21,3 +23,4 @@ A fullstack, passwordless ticketing platform designed for modern computer repair
 - 🎨 **Expressive UI** using Shadcn UI and Tailwind for clarity and emotional impact
 - 🚨 **Error Monitoring** powered by Sentry for proactive debugging
 - 🧠 **Type-Safe Backend** with Drizzle ORM and Neon for scalable data handling
+- ✅ **Form Validation** powered by Zod + React Hook Form for robust, type-safe user input
