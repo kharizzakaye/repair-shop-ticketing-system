@@ -17,9 +17,9 @@ type Props = {
 
 const CustomerForm = ({ customer }: Props) => {
   const defaultValues: insertCustomerSchemaType = {
-    id: customer?.id || 0,
-    firstName: customer?.firstName || "",
-    lastName: customer?.lastName || "",
+    id: customer?.id ?? 0,
+    firstName: customer?.firstName ?? "",
+    lastName: customer?.lastName ?? "",
     address1: customer?.address1 ?? "",
     address2: customer?.address2 ?? "",
     city: customer?.city ?? "",
